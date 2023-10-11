@@ -1,0 +1,88 @@
+body{
+        margin: 0;
+        padding: 0;
+        background-color: #fffde9;
+}
+.logo{
+        font-weight: 400;
+        font-size: 32px;
+        line-height: 76.34px;
+        font-family: 'Rock Salt', cursive;
+}
+.salad_menu{
+        display: flex;
+        gap: 40px;
+        list-style: none;
+        align-items: center;
+
+}
+.menu_children{
+        font-weight: 500;
+        font-size: 24px;
+        line-height: 32px;
+        color: black;
+        font-family: poppins;
+}
+.menu_children:hover{
+        border: 2px solid #1A5D1A;
+        /* border-color: #1A5D1A; */
+        padding: 10px 16px;
+        border-radius: 16px;
+        color: green;
+}
+.menu_icon1, .menu_icon2{
+        width: 30px;
+        height: 30px;
+}
+.menu_icon3{
+        width: 48px;
+        height: 48px;
+}
+header{
+        display: flex;
+        justify-content: space-between;
+        width: 90%;
+        margin-left: auto;
+        margin-right: auto;
+}
+.hero_sect{
+        display: flex;
+        width: 90%;
+        margin-left: auto;
+        margin-right: auto;
+}
+.sect_hero1{
+        width: 55%;
+
+}
+
+.h_child{
+        font-size: 72px;
+        font-family: poppins;
+        font-weight: 700;
+        line-height: 108px;
+        color: #1A5D1A;
+        width: 640px;
+}
+#best{
+        color:rgba(103, 203, 103, 1);
+
+}
+#best2{
+        color: rgba(241, 201, 59, 1);
+}
+.p_child{
+        font-size: 20px;
+        font-family: poppins;
+        line-height: 30px;
+        font-weight: 500;
+        width: 640px;
+}
+
+.sect_hero2{
+        width: 45%;
+}
+.sect2_img{
+        width: 798px;
+        margin-left: -50px;
+}
